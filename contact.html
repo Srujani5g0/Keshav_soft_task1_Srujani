@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Tech Solutions Inc.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background-color: #007bff;
+            color: white;
+            padding: 80px 0;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .contact-info p {
+            font-size: 1.2rem;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            border-radius: 0.375rem;
+            border: 1px solid #ccc;
+        }
+        .map-container iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Tech Solutions</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero text-center">
+        <h1>Contact Us</h1>
+        <p>Get in touch with us for your software solutions and digital transformation needs</p>
+    </div>
+
+    <!-- Contact Info Section -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4 contact-info">
+                <h3>Our Office</h3>
+                <p><strong>Tech Solutions Inc.</strong></p>
+                <p>123 Business Avenue, Suite 400</p>
+                <p>San Francisco, CA 94105</p>
+                <p><strong>Phone:</strong> +1 (800) 123-4567</p>
+                <p><strong>Email:</strong> <a href="mailto:info@techsolutions.com">info@techsolutions.com</a></p>
+            </div>
+            <div class="col-md-8">
+                <div class="map-container">
+                    <h3>Our Location</h3>
+                    <!-- Google Map Embed -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.101830437178!2d-122.3928816846825!3d37.77397397975978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064f3ef1e63%3A0xd04c9b98d6f9a44f!2sTech%20Solutions%20Inc.!5e0!3m2!1sen!2sus!4v1635341272264!5m2!1sen!2sus"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="container my-5">
+        <h2 class="text-center">Send Us a Message</h2>
+        <form action="#" method="POST" class="contact-form">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Write your message here" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2025 Tech Solutions Inc. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS & Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+

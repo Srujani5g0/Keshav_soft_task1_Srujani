@@ -1,0 +1,21 @@
+.hero {
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
