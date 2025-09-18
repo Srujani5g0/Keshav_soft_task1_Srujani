@@ -42,7 +42,3 @@ Grid System: Resolved by practicing the grid layout from the Bootstrap docs.
 Form Handling: Used Formspree for form submissions without backend.
 
 Map Embed: Generated responsive Google Maps iframe for the contact page.
-
-Time Spent
-
-~15 hours over 3 days
